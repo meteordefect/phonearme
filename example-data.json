@@ -1,0 +1,367 @@
+{
+  "cities": [
+    {
+      "id": "hanoi",
+      "name": "Hanoi",
+      "description": "Vietnam's capital city, known for its authentic northern-style pho with a clear, flavorful broth.",
+      "image": "/images/cities/hanoi.jpg",
+      "featured": true,
+      "districts": [
+        {
+          "id": "old-quarter",
+          "name": "Old Quarter",
+          "description": "The historic heart of Hanoi with narrow streets and traditional shops.",
+          "image": "/images/districts/hanoi-old-quarter.jpg",
+          "restaurants": [
+            {
+              "id": "pho-gia-truyen",
+              "name": "Phở Gia Truyền",
+              "address": "49 Bát Đàn, Hàng Bồ, Hoàn Kiếm",
+              "coordinates": {
+                "lat": 21.0341,
+                "lng": 105.8501
+              },
+              "rating": 4.8,
+              "priceRange": "$$",
+              "hours": {
+                "monday": "6:00 AM - 10:30 AM, 5:30 PM - 8:30 PM",
+                "tuesday": "6:00 AM - 10:30 AM, 5:30 PM - 8:30 PM",
+                "wednesday": "6:00 AM - 10:30 AM, 5:30 PM - 8:30 PM",
+                "thursday": "6:00 AM - 10:30 AM, 5:30 PM - 8:30 PM",
+                "friday": "6:00 AM - 10:30 AM, 5:30 PM - 8:30 PM",
+                "saturday": "6:00 AM - 10:30 AM, 5:30 PM - 8:30 PM",
+                "sunday": "6:00 AM - 10:30 AM, 5:30 PM - 8:30 PM"
+              },
+              "description": "One of Hanoi's most famous pho restaurants, known for its rich beef broth and tender meat.",
+              "specialties": ["Phở Bò Tái", "Phở Bò Chín"],
+              "images": [
+                "/images/restaurants/pho-gia-truyen-1.jpg",
+                "/images/restaurants/pho-gia-truyen-2.jpg",
+                "/images/restaurants/pho-gia-truyen-3.jpg"
+              ],
+              "reviews": [
+                {
+                  "author": "John D.",
+                  "rating": 5,
+                  "date": "2024-12-15",
+                  "text": "The best pho I've ever had! The broth is incredibly flavorful and the meat is tender."
+                },
+                {
+                  "author": "Sarah L.",
+                  "rating": 4,
+                  "date": "2024-11-20",
+                  "text": "Authentic and delicious. Be prepared to wait in line, but it's worth it."
+                }
+              ]
+            },
+            {
+              "id": "pho-thin",
+              "name": "Phở Thìn",
+              "address": "13 Lò Đúc, Phạm Đình Hổ, Hai Bà Trưng",
+              "coordinates": {
+                "lat": 21.0182,
+                "lng": 105.8566
+              },
+              "rating": 4.7,
+              "priceRange": "$$",
+              "hours": {
+                "monday": "6:00 AM - 2:00 PM",
+                "tuesday": "6:00 AM - 2:00 PM",
+                "wednesday": "6:00 AM - 2:00 PM",
+                "thursday": "6:00 AM - 2:00 PM",
+                "friday": "6:00 AM - 2:00 PM",
+                "saturday": "6:00 AM - 2:00 PM",
+                "sunday": "6:00 AM - 2:00 PM"
+              },
+              "description": "Famous for its unique stir-fried beef pho, a variation on the traditional recipe.",
+              "specialties": ["Phở Bò Áp Chảo", "Phở Gà"],
+              "images": [
+                "/images/restaurants/pho-thin-1.jpg",
+                "/images/restaurants/pho-thin-2.jpg"
+              ],
+              "reviews": [
+                {
+                  "author": "Michael T.",
+                  "rating": 5,
+                  "date": "2025-01-05",
+                  "text": "The stir-fried beef pho is a game-changer. So different from regular pho but equally delicious."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "ba-dinh",
+          "name": "Ba Đình",
+          "description": "Home to many historical sites and government buildings.",
+          "image": "/images/districts/hanoi-ba-dinh.jpg",
+          "restaurants": [
+            {
+              "id": "pho-ly-quoc-su",
+              "name": "Phở Lý Quốc Sư",
+              "address": "42 Hàng Vôi, Lý Thái Tổ, Hoàn Kiếm",
+              "coordinates": {
+                "lat": 21.0305,
+                "lng": 105.8543
+              },
+              "rating": 4.5,
+              "priceRange": "$$",
+              "hours": {
+                "monday": "7:00 AM - 10:00 PM",
+                "tuesday": "7:00 AM - 10:00 PM",
+                "wednesday": "7:00 AM - 10:00 PM",
+                "thursday": "7:00 AM - 10:00 PM",
+                "friday": "7:00 AM - 10:00 PM",
+                "saturday": "7:00 AM - 10:00 PM",
+                "sunday": "7:00 AM - 10:00 PM"
+              },
+              "description": "A popular chain serving traditional Hanoi-style pho with a rich, aromatic broth.",
+              "specialties": ["Phở Bò Tái Nạm", "Phở Gà"],
+              "images": [
+                "/images/restaurants/pho-ly-quoc-su-1.jpg",
+                "/images/restaurants/pho-ly-quoc-su-2.jpg"
+              ],
+              "reviews": [
+                {
+                  "author": "Emma W.",
+                  "rating": 4,
+                  "date": "2024-10-12",
+                  "text": "Solid pho with good flavor. More touristy than some other spots but still authentic."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ho-chi-minh-city",
+      "name": "Ho Chi Minh City",
+      "description": "Vietnam's largest city, offering southern-style pho with a sweeter broth and more herbs.",
+      "image": "/images/cities/ho-chi-minh-city.jpg",
+      "featured": true,
+      "districts": [
+        {
+          "id": "district-1",
+          "name": "District 1",
+          "description": "The central urban district and the heart of Ho Chi Minh City.",
+          "image": "/images/districts/hcmc-district-1.jpg",
+          "restaurants": [
+            {
+              "id": "pho-le",
+              "name": "Phở Lê",
+              "address": "303-305 Võ Văn Tần, Ward 5, District 3",
+              "coordinates": {
+                "lat": 10.7798,
+                "lng": 106.6868
+              },
+              "rating": 4.6,
+              "priceRange": "$$",
+              "hours": {
+                "monday": "6:00 AM - 10:00 PM",
+                "tuesday": "6:00 AM - 10:00 PM",
+                "wednesday": "6:00 AM - 10:00 PM",
+                "thursday": "6:00 AM - 10:00 PM",
+                "friday": "6:00 AM - 10:00 PM",
+                "saturday": "6:00 AM - 10:00 PM",
+                "sunday": "6:00 AM - 10:00 PM"
+              },
+              "description": "A famous chain in Ho Chi Minh City known for its southern-style pho with a sweet, aromatic broth.",
+              "specialties": ["Phở Bò Tái", "Phở Bò Viên", "Phở Gà"],
+              "images": [
+                "/images/restaurants/pho-le-1.jpg",
+                "/images/restaurants/pho-le-2.jpg"
+              ],
+              "reviews": [
+                {
+                  "author": "David K.",
+                  "rating": 5,
+                  "date": "2024-12-30",
+                  "text": "The southern-style pho here is amazing. Love the extra herbs and bean sprouts they provide."
+                }
+              ]
+            },
+            {
+              "id": "pho-hoa",
+              "name": "Phở Hòa",
+              "address": "260C Pasteur, Ward 8, District 3",
+              "coordinates": {
+                "lat": 10.7867,
+                "lng": 106.6925
+              },
+              "rating": 4.4,
+              "priceRange": "$$",
+              "hours": {
+                "monday": "6:30 AM - 10:30 PM",
+                "tuesday": "6:30 AM - 10:30 PM",
+                "wednesday": "6:30 AM - 10:30 PM",
+                "thursday": "6:30 AM - 10:30 PM",
+                "friday": "6:30 AM - 10:30 PM",
+                "saturday": "6:30 AM - 10:30 PM",
+                "sunday": "6:30 AM - 10:30 PM"
+              },
+              "description": "One of the oldest pho restaurants in the city, serving traditional southern-style pho since 1968.",
+              "specialties": ["Phở Đặc Biệt", "Phở Tái Nạm Gầu"],
+              "images": [
+                "/images/restaurants/pho-hoa-1.jpg",
+                "/images/restaurants/pho-hoa-2.jpg"
+              ],
+              "reviews": [
+                {
+                  "author": "Lisa T.",
+                  "rating": 4,
+                  "date": "2025-01-15",
+                  "text": "A classic spot with good pho. The broth is flavorful but not as rich as some other places."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "district-3",
+          "name": "District 3",
+          "description": "A district known for its colonial architecture and local food scene.",
+          "image": "/images/districts/hcmc-district-3.jpg",
+          "restaurants": [
+            {
+              "id": "pho-phu-vuong",
+              "name": "Phở Phú Vương",
+              "address": "339 Lê Văn Sỹ, Ward 1, Tân Bình",
+              "coordinates": {
+                "lat": 10.7903,
+                "lng": 106.6664
+              },
+              "rating": 4.7,
+              "priceRange": "$",
+              "hours": {
+                "monday": "6:00 AM - 11:00 PM",
+                "tuesday": "6:00 AM - 11:00 PM",
+                "wednesday": "6:00 AM - 11:00 PM",
+                "thursday": "6:00 AM - 11:00 PM",
+                "friday": "6:00 AM - 11:00 PM",
+                "saturday": "6:00 AM - 11:00 PM",
+                "sunday": "6:00 AM - 11:00 PM"
+              },
+              "description": "A local favorite known for its generous portions and flavorful broth.",
+              "specialties": ["Phở Bò Tái Nạm", "Phở Bò Viên"],
+              "images": [
+                "/images/restaurants/pho-phu-vuong-1.jpg",
+                "/images/restaurants/pho-phu-vuong-2.jpg"
+              ],
+              "reviews": [
+                {
+                  "author": "Robert C.",
+                  "rating": 5,
+                  "date": "2024-11-05",
+                  "text": "This place is a hidden gem! The broth is incredibly flavorful and the portions are huge."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hue",
+      "name": "Hue",
+      "description": "The former imperial capital, known for its spicy beef noodle soup called 'Bún bò Huế' rather than pho.",
+      "image": "/images/cities/hue.jpg",
+      "featured": false,
+      "districts": [
+        {
+          "id": "hue-city",
+          "name": "Hue City",
+          "description": "The central area of Hue, containing the Imperial City and many historical sites.",
+          "image": "/images/districts/hue-city.jpg",
+          "restaurants": [
+            {
+              "id": "bun-bo-hue-dong-ba",
+              "name": "Bún Bò Huế Đông Ba",
+              "address": "23 Trần Thúc Nhẫn, Phú Hội, Thành phố Huế",
+              "coordinates": {
+                "lat": 16.4674,
+                "lng": 107.5968
+              },
+              "rating": 4.9,
+              "priceRange": "$",
+              "hours": {
+                "monday": "6:00 AM - 10:00 AM",
+                "tuesday": "6:00 AM - 10:00 AM",
+                "wednesday": "6:00 AM - 10:00 AM",
+                "thursday": "6:00 AM - 10:00 AM",
+                "friday": "6:00 AM - 10:00 AM",
+                "saturday": "6:00 AM - 10:00 AM",
+                "sunday": "6:00 AM - 10:00 AM"
+              },
+              "description": "While not a pho restaurant, this place serves the famous Bun Bo Hue, a spicy beef noodle soup that's a specialty of the region.",
+              "specialties": ["Bún Bò Huế", "Bún Bò Giò Heo"],
+              "images": [
+                "/images/restaurants/bun-bo-hue-dong-ba-1.jpg",
+                "/images/restaurants/bun-bo-hue-dong-ba-2.jpg"
+              ],
+              "reviews": [
+                {
+                  "author": "Jennifer P.",
+                  "rating": 5,
+                  "date": "2024-10-25",
+                  "text": "The most authentic Bun Bo Hue I've ever had. Spicy, flavorful, and absolutely delicious."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "da-nang",
+      "name": "Da Nang",
+      "description": "A coastal city in central Vietnam with a growing food scene.",
+      "image": "/images/cities/da-nang.jpg",
+      "featured": true,
+      "districts": [
+        {
+          "id": "hai-chau",
+          "name": "Hải Châu",
+          "description": "The central business district of Da Nang.",
+          "image": "/images/districts/da-nang-hai-chau.jpg",
+          "restaurants": [
+            {
+              "id": "pho-bac-hai",
+              "name": "Phở Bắc Hải",
+              "address": "87 Lê Duẩn, Hải Châu 1, Hải Châu",
+              "coordinates": {
+                "lat": 16.0715,
+                "lng": 108.2208
+              },
+              "rating": 4.5,
+              "priceRange": "$",
+              "hours": {
+                "monday": "6:00 AM - 10:00 PM",
+                "tuesday": "6:00 AM - 10:00 PM",
+                "wednesday": "6:00 AM - 10:00 PM",
+                "thursday": "6:00 AM - 10:00 PM",
+                "friday": "6:00 AM - 10:00 PM",
+                "saturday": "6:00 AM - 10:00 PM",
+                "sunday": "6:00 AM - 10:00 PM"
+              },
+              "description": "A popular local spot serving northern-style pho with a clean, clear broth.",
+              "specialties": ["Phở Bò Tái", "Phở Gà"],
+              "images": [
+                "/images/restaurants/pho-bac-hai-1.jpg",
+                "/images/restaurants/pho-bac-hai-2.jpg"
+              ],
+              "reviews": [
+                {
+                  "author": "Thomas L.",
+                  "rating": 4,
+                  "date": "2024-12-10",
+                  "text": "Good northern-style pho in Da Nang. The broth is light but flavorful."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
