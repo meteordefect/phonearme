@@ -323,6 +323,66 @@ The `RestaurantCard` component:
    - Location maps for each restaurant
    - Responsive layout that adjusts to different screen sizes
 
+### City-Level Pillar Pages
+
+Each major city (Hanoi, Ho Chi Minh City, Da Nang, etc.) will have a dedicated page that serves as a pillar content page for SEO and user experience. These pages will include:
+
+- **Overview of the city's pho scene**: History, cultural significance, and unique characteristics
+- **Local specialties and variations**: What makes this city's pho different from others
+- **Famous pho restaurants**: Highlighting the most renowned establishments
+- **Best districts for authentic pho**: Guiding visitors to the right neighborhoods
+- **Links to district pages**: For deeper exploration of specific areas
+
+The city pages will serve as comprehensive guides for both tourists and locals, providing valuable information while driving traffic to more specific district and restaurant pages.
+
+#### Content Structure Example (Hanoi)
+
+```
+# Hanoi Pho Guide
+
+## What Makes Hanoi Pho Special
+[Brief history and overview of Hanoi's pho tradition]
+
+## Local Specialties
+- Phở Bò (Beef Pho): [Description of Hanoi-style beef pho]
+- Phở Gà (Chicken Pho): [Description of Hanoi-style chicken pho]
+- Unique ingredients and preparation methods
+
+## Famous Pho Restaurants in Hanoi
+[List of top restaurants with brief descriptions]
+
+## Best Districts for Authentic Pho
+- Old Quarter: [Overview and notable spots]
+- Ba Đình: [Overview and notable spots]
+- [Other districts with brief descriptions]
+
+## Explore Hanoi Districts
+[Links to district pages]
+```
+
+### Single-Column Progressive Disclosure Layout
+
+To optimize for mobile users while maintaining strong SEO value, we'll implement a single-column progressive disclosure layout for city and district pages:
+
+```
+[SEARCH + FILTERS]
+[NEARBY RESTAURANTS]
+[MINI CONTENT CARD: "What makes Hanoi pho special?"]
+[MORE RESTAURANTS]
+[MINI CONTENT CARD: "Best time to eat pho"]
+[MORE RESTAURANTS]
+```
+
+This approach:
+
+- **Prioritizes user needs**: Puts restaurant listings front and center
+- **Maintains SEO value**: Intersperses valuable content between listings
+- **Enhances mobile experience**: Perfect for narrow screens with vertical scrolling
+- **Balances content and functionality**: Provides information without overwhelming the directory function
+- **Encourages exploration**: Content cards serve as natural breaks in scrolling, increasing engagement
+
+The mini content cards will contain concise, valuable information that enhances the user experience while providing search engines with relevant, high-quality content to index.
+
 ### Next Steps
 
 The following features are planned for upcoming development:
