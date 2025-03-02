@@ -16,8 +16,8 @@ interface RestaurantProps {
 
 const RestaurantCard: React.FC<RestaurantProps> = ({ restaurant }) => {
   return (
-    <div className="restaurant-card p-4 border rounded-lg shadow-md mb-4">
-      <h2 className="text-xl font-bold mb-2">{restaurant.name}</h2>
+    <div className="card restaurant-card p-4 mb-4">
+      <h2 className="text-xl font-bold mb-2">{restaurant.name.replace(/Pho/g, 'Phở')}</h2>
       <p className="text-gray-600 mb-3">{restaurant.address}</p>
       <div className="map-container w-full h-[300px] overflow-hidden rounded-md mb-3">
         <iframe 

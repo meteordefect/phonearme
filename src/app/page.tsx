@@ -4,10 +4,20 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center">
-        <div className="text-center">
-          <h1 className="text-4xl font-bold mb-2">Pho Near Me</h1>
-          <p className="text-xl text-gray-600 mb-6">Find the best pho restaurants in Vietnam</p>
+      <main className="flex flex-col gap-8 row-start-2 items-center section w-full max-w-4xl">
+        <div className="flex items-center justify-center mb-6">
+          <Image
+            src="/logo.png"
+            alt="Pho Near Me Logo"
+            width={80}
+            height={80}
+            className="mr-4"
+            priority
+          />
+          <div>
+            <h1 className="text-4xl font-bold mb-2">Phở Near Me</h1>
+            <p className="text-xl text-gray-600">Find the best phở restaurants in Vietnam</p>
+          </div>
         </div>
         
         <Image
@@ -15,19 +25,19 @@ export default function Home() {
           alt="Pho restaurant"
           width={600}
           height={400}
-          className="rounded-lg shadow-md mb-8"
+          className="rounded-lg shadow-md mb-8 card"
           priority
         />
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">
           <Link
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-red-600 text-white gap-2 hover:bg-red-700 text-sm sm:text-base h-10 sm:h-12 px-6 sm:px-8"
+            className="btn-primary flex items-center justify-center gap-2 text-sm sm:text-base h-10 sm:h-12 px-6 sm:px-8"
             href="/restaurants"
           >
             View Restaurants
           </Link>
           <Link
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
+            className="btn-secondary flex items-center justify-center text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
             href="#"
           >
             Explore Cities
